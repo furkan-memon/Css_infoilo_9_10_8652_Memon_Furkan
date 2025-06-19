@@ -127,8 +127,9 @@ nav ul li a {
     padding-inline: 10px;
     position: relative;
     margin-bottom: 100px; 
-    left: 600px;
-    
+    /* left: 600px; */
+    display: flex;
+    justify-content: right;
 } 
  .title  {
    
@@ -207,6 +208,8 @@ nav ul li a {
     margin-top: 80px;
 }
 .right-contant{
+    max-width: 500px;
+    align-items: right;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -258,8 +261,22 @@ nav ul li a {
     left: -100px; 
     bottom: 50px;
 }
-.r-btn a span{
-    margin-left: 5px;
+.marquee-text{
+    display: flex;
+}
+.star{
+    margin-left: 30px;
+    /* margin-top: 10px; */
+    display: inline-block;
+    font-size: 50px;
+}
+.marquee{
+    color: white;
+    margin-top: 100px;
+}
+.slidebar h4 span{
+    font-size: 50px;
+    margin-inline:10px ;
 }
 .Reason {
     max-width: 700px;
