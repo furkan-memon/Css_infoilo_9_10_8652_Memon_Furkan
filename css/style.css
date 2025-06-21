@@ -552,7 +552,7 @@ font-size: 8vw;
 .links-img:hover  .box-img img{
     filter: blur(4px);
 }
-.links-img .img-items:hover  .tb img{
+.links-img .img-items:hover  .bluer img{
     filter: none;
    
 }
