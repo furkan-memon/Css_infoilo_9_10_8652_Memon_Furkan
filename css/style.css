@@ -417,8 +417,8 @@ nav ul .con a{
     border-top: 1px solid rgba(255, 255, 255, 0.14);
     position: relative;
     display: flex;
-    justify-content: space-between;
-   align-items: center;
+    /* justify-content: space-between; */
+   /* align-items: center; */
 }
 .Specialize-text1::after{
 
@@ -460,10 +460,9 @@ nav ul .con a{
     color: white;
 }
 .s-card{
-    display: flex;
-    padding-top: 100px;
-    justify-content: space-;
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 50px;
 }
 .border-padding{
  border: 1px solid rgba(255, 255, 255, 0.14);
