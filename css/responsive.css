@@ -90,7 +90,16 @@
 .star-second{
     margin-top: 0px;
 }  
-      
+.row{
+    flex-direction: column; 
+}
+.border-text{
+    padding: 10px;
+    /* margin-inline: 20px; */
+}
+.border-text a{
+    margin-left: 20px;
+}
 }
 
 @media(min-width:376px) {

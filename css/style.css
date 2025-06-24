@@ -575,13 +575,19 @@ font-size: 8vw;
     font-weight: 200;
 }
 .row{
-    display: flex;
-    
+    display: flex; 
 }
 .img-items{
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 0;
+}
+.po-text{
+    color: white;
+}
+.i-item{
+  
+    text-align: center;
 }
 .img-items .box-img{
     position: relative;
