@@ -175,11 +175,11 @@ nav ul .con a{
      z-index: 3;
     margin: 0 auto;
     padding: 0 20px;
-    display: flex;
-    justify-content: center;
 }
 .titles-container {
     display: flex !important;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
 }
 .titles-container h6{
     font-size: 20px;
@@ -189,8 +189,10 @@ nav ul .con a{
 .titles-container h6:nth-child(2){
     margin-left:auto ;
 }
-.headtext{
-     margin: auto;
+.agency-name{
+    display: flex;
+    justify-content: center;
+     margin-inline: auto;
       position: relative;
      z-index: 3;
 }
