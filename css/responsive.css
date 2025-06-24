@@ -30,7 +30,37 @@
  .font{
     font-size: 40px;
 }
+.srevices{
+    flex-direction: column;
+    margin-inline: 20px;
+}
+.r-img{
+    transform: rotate(0deg);
+    margin-left: 0px;
 
+}
+.r-btn{
+    left: 0;
+}
+.Reason{
+    margin-left: 0px;
+    margin-top: 120px;
+}
+.Reason-title h6{
+    font-size: 20px;
+    font-weight: 500;
+}
+.Reason-title h2{
+    font-size: 28px;
+}
+.soul {
+    font-size: 17px;
+    font-weight: 400;
+    margin-right: 0px;
+}
+.project-text{
+    flex-direction: column;
+}
 }
 
 @media(min-width:376px) {
@@ -91,6 +121,9 @@
      .img{
     margin-top: -35px;
     }
+    .project-text{
+    flex-direction: row;
+}
 }
 
 @media(min-width:768px) {
@@ -120,7 +153,17 @@
     .font{
     font-size: 50px;
 }
-
+.r-img{
+    transform: rotate(-10deg);
+    margin-left: 25px;
+    border-radius: 30px;
+      height: 621px;
+    width: 650px;
+    
+}
+.r-btn{
+    left: -40px;
+}
 }
 
 @media(min-width:992px) {
@@ -170,8 +213,23 @@
     font-size: 70px;
 }
 .right-contant{
-        max-width: 500px;
+        max-width: 450px;
     }
+.srevices{
+    flex-direction: row;
+ 
+}
+.r-img{
+    height: 421px;
+    width: 300px;
+    position: relative;
+    bottom: -170px;
+}
+.Reason{
+
+    margin-left: 140px;
+}
+
 }
 
 @media(min-width:1200px) {
@@ -189,5 +247,12 @@
 }
 .marquee{
     margin-left: 0px;
+}
+
+.r-img{
+    height: 621px;
+    width: 400px;
+    position: relative;
+    bottom: 0;
 }
 }

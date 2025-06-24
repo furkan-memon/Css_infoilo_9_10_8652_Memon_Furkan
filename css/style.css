@@ -297,9 +297,9 @@ nav ul .con a{
     position: relative;
 }
 .r-img{
-    height: 621px;
-    width: 504;
-    transform: rotate(-10deg);
+    /* height: 621px;
+    width: 400px; */
+    
     margin-bottom: -50px;
     margin-left: 25px;
     border-radius: 30px;
@@ -313,6 +313,7 @@ nav ul .con a{
     transform: rotate(-90deg) translateY(-100%);
     left: -100px; 
     bottom: 50px;
+    z-index: 5;
 }
 .marquee-text{
     display: flex;
@@ -334,7 +335,6 @@ nav ul .con a{
 .Reason {
     max-width: 700px;
     font-size: 30px;
-    margin-left: 150px;
     color: white;
 }
 
@@ -344,18 +344,19 @@ nav ul .con a{
     text-transform: uppercase;
     line-height: 60px;
     color: #00ABB3;
-    margin-left: -50px;
+    /* margin-left: -50px; */
 }
 
  .Reason-title h2{
-    font-weight: 400;
-    margin-left: -50px;
+    font-size: 30px;
+    font-weight: 500;
+    /* margin-left: -50px; */
     max-width: 600px;
  }
 .soul {
     margin-top: 80px;
     margin-right: 100px;
-    max-width: 550px;
+    /* max-width: 550px; */
     font-size: 15px;
     color:#C6C8C9 ;
 }
@@ -370,8 +371,11 @@ nav ul .con a{
     border-left: #1a1a1a;
 }
 .project-text{
+        border-top: 1px solid rgba(255, 255, 255, 0.14);
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
+    padding-top: 50px;
 }
 .projects{
     display: flex;
