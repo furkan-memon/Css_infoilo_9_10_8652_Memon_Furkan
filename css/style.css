@@ -50,28 +50,50 @@ img {
 }
 
 nav ul {
-   display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-around;
     margin-inline: auto;
+    display: none;
 }
 nav ul li i{
     color: #fff;
    
 }
-nav ul li {
-    margin: 0 20px;
-    padding: 20px;
-    font-size: 13px;
-     
+nav ul li{
+    margin: 0 15px;
+    padding: 20px 10px 15px 10px;
+}
+.nav{
+    display: none;
+}
+nav ul .dropdown::after{
+    content: "";
+    color: white;
+    /* display: inline-block; */
+    position: relative;
+    top: 7px;
+    border-top: .3em solid;
+
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
 }
 
-nav ul li a {
+nav ul .dropdown a {
     color: #fff;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 13px;
+    font-weight: 600;
     position: relative;
     margin-right: 5px;
+}
+nav ul .con a{
+ font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    color: #fff;
+    /* text-wrap: nowrap; */
+    
 }
 
 .container {
@@ -95,6 +117,7 @@ nav ul li a {
     border-left: 2px solid transparent;
     border-right: 2px solid transparent;
     border-color: rgba(255, 255, 255, 0.09);
+    display: none;
 }
 
 .menu-icon {
@@ -143,41 +166,48 @@ nav ul li a {
     margin-bottom: 100px; 
     /* left: 600px; */
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
+    flex-wrap: wrap;
     z-index: 2;
 } 
  .title  {
-   
+     position: relative;
+     z-index: 3;
     margin: 0 auto;
     padding: 0 20px;
-    z-index: 3;
+    display: flex;
+    justify-content: center;
 }
 .titles-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 1100px;
+    display: flex !important;
+}
+.titles-container h6{
     font-size: 20px;
-    /* font-family: 'Poppins'; */
     font-weight: 400;
     color: white;
 }
-.agency-name{
-    margin: auto;
-    z-index: 4;
+.titles-container h6:nth-child(2){
+    margin-left:auto ;
 }
-.agency-name .name h1{
+.headtext{
+     margin: auto;
+      position: relative;
+     z-index: 3;
+}
+.headtext{
     color: white;
-    font-size: 154px;
+    font-size: 9vw;
     font-weight: 400;
-    line-height: 150px;
+    line-height: 1;
     /* max-width: 200px; */
     display: flex;
     flex-wrap: wrap;
 }
 .img{
-    margin-inline:62px ;
+   padding: 20px;
     margin-top: -50px;
-    z-index: 3;
+     position: relative;
+     z-index: 2;
 
 }
 /* INTRO SECTION */
