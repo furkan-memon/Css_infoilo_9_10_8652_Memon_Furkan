@@ -91,7 +91,7 @@
     margin-top: 0px;
 }  
 .row{
-    flex-direction: column; 
+    /* flex-direction: column;  */
 }
 .portfolio-text1{
     justify-content: left;
@@ -156,24 +156,30 @@
 .main-box{
     flex-direction: column;
 }
-.box-img{
-    margin-bottom: 70px;
-}
+
 .team-section{
     margin-inline: 20px;
 }
 .team-text1 h2{
-font-size: 30px;
+font-size: 24px;
 }
 .team-text1{
-    margin-inline: 20px;
     flex-direction: column;
 }
-.join-link::after{
-    top: 56px;
-    right: 233px;
-    position: absolute;
-
+.arrow{
+    margin-left: 0;
+}
+.icon-box{
+    display: none;
+}
+.info{
+    display: none;
+}
+.box-b{
+    padding-right: 0;
+}
+.join-text a{
+    display: none;
 }
 }
 
@@ -197,6 +203,18 @@ font-size: 30px;
     .border-text{
     max-width: 340px;
 }
+.box-img{
+   
+    margin-bottom: calc(130vw - 100%);
+
+}
+.team-section{
+    margin-inline: 20px;
+}
+.team-text1 h2{
+font-size: 24px;
+}
+
 }
 
 @media(min-width:481px) {
@@ -225,6 +243,12 @@ font-size: 30px;
 .border-items{
     margin-top: 60px;
 }
+.box-img{
+    margin-bottom: 0;
+}
+
+
+
 }
 
 @media(min-width:576px) {
@@ -259,6 +283,10 @@ font-size: 30px;
 .border-items{
     margin-top: 70px;
 }
+.box-img{
+    margin-bottom: calc(160vw - 100%);
+}
+
 }
 
 @media(min-width:768px) {
@@ -344,6 +372,9 @@ font-size: 30px;
     width: 150px;
            left: -40px;
 
+}
+.box-img{
+    margin-bottom: calc(170vw - 100%);
 }
 }
 
@@ -434,6 +465,7 @@ font-size: 30px;
 }
 .testimonials-text1{
     flex-direction: row;
+    padding-top: 50px;
 }
 .testimonials-text h6{
     font-size: 16px;
@@ -448,8 +480,42 @@ font-size: 30px;
     margin-left: 0px;
     margin-top: 0px;
 }
+    .box-img {
+        margin-bottom: 0px;
+    }
 .user-data{
     flex-direction: row;
+}
+.main-box{
+    flex-direction: row;
+}
+
+.team-section{
+    margin-inline: 20px;
+}
+.team-text1 h2{
+font-size: 24px;
+}
+.team-text1{
+    flex-direction: row;
+}
+.arrow{
+    margin-left: 0;
+}
+.icon-box{
+    display:flex;
+}
+.info{
+    display: flex;
+}
+.box-b{
+    padding-right: 60px;
+}
+.testimonials-text2 {
+        top: 100px; 
+}
+.join-text a{
+    display: flex
 }
 }
 
@@ -477,7 +543,7 @@ font-size: 30px;
     bottom: 0;
 }
 .testimonials-cards{
-    max-width:790px;
+    max-width:590px;
     margin-left: 0px;
     margin-top: 0px;
 }
