@@ -91,7 +91,7 @@
     margin-top: 0px;
 }  
 .row{
-    /* flex-direction: column;  */
+     flex-direction: column;  
 }
 .portfolio-text1{
     justify-content: left;
