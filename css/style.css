@@ -854,7 +854,7 @@ font-size: 8vw;
     border-radius: 10px;
     overflow: hidden;
 }
-.box-img{
+.box-img-2{
     /* display: flex; */
  position: relative;
 
@@ -871,7 +871,7 @@ font-size: 8vw;
 /* .box-img:hover .icon{
   
 } */
-.box-img:hover .icon-box{
+.box-img-2:hover .icon-box{
   /* display: Flex; */
   right:5px;
   transform: rotate(8deg);
@@ -922,7 +922,7 @@ border-radius: 10px;
 opacity: 0;
 transition: .4s;
 }
-.box-img:hover .info{
+.box-img-2:hover .info{
     opacity: 1;
     bottom: 40px ;
 }
