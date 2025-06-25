@@ -576,6 +576,7 @@ font-size: 8vw;
 }
 .row{
     display: flex; 
+    justify-content: center;
 }
 .img-items{
     padding-left: 15px;
@@ -622,7 +623,17 @@ font-size: 8vw;
     width: 100%;
     height: 100%;
 }
-
+.po-text h2{
+    padding: 10px;
+    
+}
+.po-text span{
+    padding: 10px;
+}
+.po-text{
+    margin-bottom:30px ;
+    margin-top: 15px;
+}
 
 .links-img .cut {
     margin-top: 30px;
@@ -685,12 +696,12 @@ font-size: 8vw;
      color: white;
      top: -100px;
 }
-
+/* 
 .testimonials-text2 h2 span{
     font-weight: 200;
-}
+} */
 .testimonials-text2 h2{
-    font-size: 40px;
+    font-size: 28px;
     color: white;
     font-weight: 600;
 }
@@ -699,6 +710,7 @@ font-size: 8vw;
     font-weight: 300;
     font-size: 30px;
     color: white;
+    opacity: .9;
     /* position: relative; */
     z-index: 1000;
 }
@@ -717,6 +729,9 @@ font-size: 8vw;
 .user-data{
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+    margin-top: 40px;
+    padding-top: 40px;
 }
 .user-info{
     display: flex;
@@ -733,10 +748,12 @@ font-size: 8vw;
     font-size: 25px;
     font-weight: 500;
     color: white;
+
 }
 .user-name p{
     font-size: 14px;
     color: #00ABB3;
+    letter-spacing: 2px;
 }
 
 /* team section */
