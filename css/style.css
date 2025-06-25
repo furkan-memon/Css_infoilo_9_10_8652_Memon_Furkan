@@ -848,6 +848,8 @@ font-size: 8vw;
         position: relative;
         border-radius: 20px; 
         padding-right: 60px;
+        display: flex;
+        justify-content: center;
   z-index: 2;
 }
 .box-b img{
@@ -1174,18 +1176,18 @@ grid-template-columns: 1fr 1fr;
 }
 .footer-text{
   color: white;
-  font-size: 80px;
   display: flex;
   padding-bottom:80px ;
   border-bottom: 1px solid rgba(255, 255, 255, 0.14);
 }
-.footer-text SVG{
-    margin-top: 17PX;
-    font-weight: 300;
-    margin-left: 10px;
-}
+
 .footer-text h2{
+      font-size: 100px;
     font-weight: 400;
+}
+
+.footer-text i{
+    transform: rotate(45deg);
 }
 
 .footer-text2{
@@ -1253,8 +1255,9 @@ address{
     padding-top: 40px;
     margin-top: 80px;
 }
-.social a{
+.social  a i{
    margin-right: 10px;
+   font-weight: 400;
 }
 .cs-right
 {
