@@ -153,6 +153,28 @@
 .user-name h3{
     font-size: 23px;
 }
+.main-box{
+    flex-direction: column;
+}
+.box-img{
+    margin-bottom: 70px;
+}
+.team-section{
+    margin-inline: 20px;
+}
+.team-text1 h2{
+font-size: 30px;
+}
+.team-text1{
+    margin-inline: 20px;
+    flex-direction: column;
+}
+.join-link::after{
+    top: 56px;
+    right: 233px;
+    position: absolute;
+
+}
 }
 
 @media(min-width:376px) {

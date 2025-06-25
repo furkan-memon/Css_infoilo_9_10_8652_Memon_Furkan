@@ -766,7 +766,7 @@ font-size: 8vw;
 
 .team {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .team-text1 h2{
     font-size: 50px;
@@ -781,8 +781,8 @@ font-size: 8vw;
     padding-right:20px;
     border-top: 1px solid rgba(255, 255, 255, 0.14);
     display: flex;
-    justify-content:space-between;
-    align-items: center;
+    /* justify-content:space-between; */
+    /* align-items: center; */
     margin-bottom: 80px !important;
     position: relative;
 }
@@ -801,9 +801,9 @@ font-size: 8vw;
 .join-text a{
     display: flex;
     color: white;
-    justify-content: center;
-    align-items: center;
-    
+    /* justify-content: center;
+    align-items: center; */
+  
 }
 .join-text a .join{
     margin-right: 10px;
@@ -843,6 +843,11 @@ font-size: 8vw;
 
 .arrow{
     margin-left: 10px;
+}
+.main-box{
+    display: flex;
+     justify-content: space-between;
+      gap: 30px;
 }
 .box-b{
   height: 400px;
