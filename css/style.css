@@ -460,9 +460,16 @@ nav ul .con a{
     color: white;
 }
 .s-card{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  gap: 10px;
+   margin-left: -270px;
+  margin-right: -270px;
   padding-top: 50px;
+}
+.s-card::-webkit-scrollbar{
+    display: none;
 }
 .border-padding{
  border: 1px solid rgba(255, 255, 255, 0.14);
@@ -477,7 +484,11 @@ nav ul .con a{
 .item-box {
     color: white;
     margin-right: 30px;
+    display: flex;
+  flex-shrink: 0;
+    flex-direction:column;
 }
+
 .item-box  h5{
     font-size: 25px;
     font-weight: 500;
